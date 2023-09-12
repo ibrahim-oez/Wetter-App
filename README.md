@@ -31,7 +31,7 @@ Platziere den generierten API-Schlüssel in einer Datei namens `config.propertie
    api=<-API Key->
    ```
 
-![meinLogo](src/assets/logo.png)
+<img src="src/assets/logo.png" alt="Mein Logo" width="200" height="100">
 
 
 
