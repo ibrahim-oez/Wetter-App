@@ -1,6 +1,6 @@
-# Anleitung zur Integration der WeatherAPI.com in dein Projekt
+#Wetter-App 
 
-Das Ziel dieses Projekts ist es, eine Anwendung zu erstellen, die Wetterdaten für eine bestimmte Stadt von WeatherAPI.com abruft und anzeigt. Diese Anleitung führt dich durch den Prozess, wie du die WeatherAPI.com in dein Kotlin-Projekt integrieren kannst.
+- Das Ziel dieses Projekts ist es, eine Anwendung zu erstellen, die Wetterdaten für eine bestimmte Stadt von WeatherAPI.com abruft und anzeigt. Diese Anleitung führt dich durch den Prozess, wie du die WeatherAPI.com in dein Kotlin-Projekt integrieren kannst.
 
 ## Schritt 1: Anmeldung bei WeatherAPI.com
 
