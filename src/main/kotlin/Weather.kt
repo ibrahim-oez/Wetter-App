@@ -17,14 +17,13 @@ data class LocationInfo(
 )
 
 data class CurrentInfo(
-    val temp_c: Double // Annahme: Die Temperatur wird in Grad Celsius zurückgegeben
+    val temp_c: Double
 )
 
 
 
 class Weather()
 {
-
     fun fetchWeather(city:String){
         var apiKey:String=""
         try {
@@ -32,23 +31,19 @@ class Weather()
             val prop = Properties()
             prop.load(read)
 
-            // Holen Sie den API-Schlüssel aus den Properties
+            // Get Key from .properties
             apiKey = prop.getProperty("api")
             read.close()
 
-            // Rest des Codes hier...
         } catch (e: Exception) {
             e.printStackTrace()
             println("Fehler beim Lesen der config.properties-Datei.")
         }
 
-
         val baseUrl:String = "http://api.weatherapi.com/v1"
         val apiURL = "$baseUrl/current.json?key=$apiKey&q=$city&lang=de"
-        //API in eine URL instanz
+
         val url = URI(apiURL).toURL()
-
-
         val connection = url.openConnection() as HttpURLConnection
         connection.requestMethod = "GET"
 
@@ -66,15 +61,15 @@ class Weather()
 
 
 
-            // Deserialisiere die JSON-Daten in ein Kotlin-Objekt
+            // Creat KotlinObj
             val gson = Gson()
             val weatherResponse = gson.fromJson(response, WeatherResponse::class.java)
 
-            // Extrahiere die gewünschten Informationen
+            // Extract
             val stadt = weatherResponse.location.name
             val temperaturCelsius = weatherResponse.current.temp_c
 
-            // Gib die Informationen aus
+            // print
             val ausgabe = "Stadt: $stadt \nTemperatur: $temperaturCelsius °C"
             println(ausgabe)
 
