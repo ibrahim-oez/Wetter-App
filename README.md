@@ -1,4 +1,7 @@
-# Wetter-App                                                                                                                                                                                  <img src="src/assets/logo.png" alt="Mein Logo" width="250" height="200">
+# Wetter-App                                                                                                                                                                             
+<p align="right">
+  <img src="src/assets/logo.png" alt="Mein Logo">
+</p>
 
 Das Ziel dieses Projekts ist es, eine Wetter-App zu entwickeln, mit der Benutzer Wetterdaten für eine bestimmte Stadt von WeatherAPI.com abrufen und anzeigen können. Der Hauptfokus liegt dabei auf dem API-Abruf, Konvertierung der Daten in Kotlin-Objekte, die Nutzung von Datenmodellen und der Datenverarbeitung.
 
