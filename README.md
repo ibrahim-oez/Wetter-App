@@ -14,10 +14,12 @@ Bevor du die WeatherAPI.com in dein Projekt einbindest, musst du dich auf der We
 
 ## Schritt 2: Projekt einrichten
 
-Stelle sicher, dass du dein Kotlin-Projekt bereits erstellt hast. Wenn nicht, richte dein Projekt entsprechend ein oder benutze den Befehl `git clone` im Terminal.
+Stelle sicher, dass du dein Kotlin-Projekt bereits erstellt hast. Wenn nicht, richte dein Projekt entsprechend ein
+oder benutze den Befehl `git clone` im Terminal.
 
 ```
-git clone 
+git clone https://github.com/ibrahim-oez/Wetter-App.git
+```
 
 ## Schritt 3: API-Schlüssel in das Projekt einbinden
 
