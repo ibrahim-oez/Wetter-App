@@ -24,4 +24,3 @@ Um den API-Schlüssel in dein Projekt zu integrieren, folge diesen Schritten:
 
    ```config.properties
    api=<-API Key->
-```
