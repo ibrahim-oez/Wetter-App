@@ -12,16 +12,10 @@ fun main(args: Array<String>)
         println("Exit ? (Ja/Nein)")
         val next = readLine()
         if (next.equals("Nein",ignoreCase = true)){
-            clearConsole()
             continue
         }else{
             break
         }
 
     }
-}
-
-fun clearConsole():ProcessBuilder{
-    val pr = ProcessBuilder()
-   return pr.command("cls")
 }
