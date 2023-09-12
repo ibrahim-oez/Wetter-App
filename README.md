@@ -1,6 +1,6 @@
 # Wetter-App 
 
-- Das Ziel dieses Projekts ist es, eine Anwendung zu erstellen, die Wetterdaten für eine bestimmte Stadt von WeatherAPI.com abruft und anzeigt. Diese Anleitung führt dich durch den Prozess, wie du die WeatherAPI.com in dein Kotlin-Projekt integrieren kannst.
+Das Ziel dieses Projekts ist es, eine Wetter-App zu entwickeln, mit der Benutzer Wetterdaten für eine bestimmte Stadt von WeatherAPI.com abrufen und anzeigen können. Der Hauptfokus liegt dabei auf dem API-Abruf, Konvertierung der Daten in Kotlin-Objekte, die Nutzung von Datenmodellen und der Datenverarbeitung.
 
 ## Schritt 1: Anmeldung bei WeatherAPI.com
 
