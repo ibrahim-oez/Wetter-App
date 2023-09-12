@@ -31,5 +31,5 @@ bin/
 # config.properties
 *.iml
 .idea/**
-.src/*/*/README.md
+.src/*/README.md
 .out/
