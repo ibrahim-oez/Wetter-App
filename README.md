@@ -17,7 +17,7 @@ Bevor du die WeatherAPI.com in dein Projekt einbindest, musst du dich auf der We
 Stelle sicher, dass du dein Kotlin-Projekt bereits erstellt hast. Wenn nicht, richte dein Projekt entsprechend ein
 oder benutze den Befehl `git clone` im Terminal.
 
-```
+```git clone
 git clone https://github.com/ibrahim-oez/Wetter-App.git
 ```
 
@@ -25,7 +25,7 @@ git clone https://github.com/ibrahim-oez/Wetter-App.git
 
 Um den API-Schlüssel in dein Projekt zu integrieren, folge diesen Schritten:
 
-1. Platziere den generierten API-Schlüssel in einer Datei namens `config.properties` in deinem Projektverzeichnis. Die Datei sollte wie folgt aussehen:
+Platziere den generierten API-Schlüssel in einer Datei namens `config.properties` in deinem Projektverzeichnis. Die Datei sollte wie folgt aussehen:
 
    ```config.properties
    api=<-API Key->
