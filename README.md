@@ -31,4 +31,4 @@ Platziere den generierten API-Schlüssel in einer Datei namens `config.propertie
    api=<-API Key->
    ```
 
-![mein Logo](https://drive.google.com/file/d/1IT1CckuQD5x0uJOrKdZXo-T9ZICdREvC/view?usp=sharing)
+![meinLogo](https://drive.google.com/file/d/1IT1CckuQD5x0uJOrKdZXo-T9ZICdREvC/view?usp=sharing)
